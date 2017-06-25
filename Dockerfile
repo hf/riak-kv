@@ -13,6 +13,4 @@ COPY prestop.d /etc/riak/prestop.d
 
 COPY riak-up.sh /usr/local/bin/
 
-USER riak
-
 CMD ["/bin/bash", "riak-up.sh"]
